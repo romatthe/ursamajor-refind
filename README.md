@@ -1,5 +1,7 @@
 ![](screenshot.png)
 
+This is my fork of the Ursa Major rEFInd theme.
+
 A clean theme for the [rEFInd UEFI Boot Manager](http://www.rodsbooks.com/refind/)
 based on the Ursa Major colorscheme.
 
