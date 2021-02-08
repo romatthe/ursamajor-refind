@@ -10,19 +10,19 @@ Windows.
 
 ## Installation
 
-1. Find the rEFInd directory on your boot volume. For me, it's `/boot/EFI/refind`.
+1. Find the rEFInd directory on your boot volume. For me, it's `/boot/efi/EFI/refind`.
    (Note: you will likely need to do this as root)
 
 2. Clone this repository to the `themes` directory inside the rEFInd directory.
 
 ```bash
-cd /boot/EFI/refind
+cd /boot/efi/EFI/refind
 mkdir themes
 cd themes
 git clone https://github.com/kgoettler/ursamajor-rEFInd.git
 ```
 
-3. Add the following line to the bottom of the `refind.conf` file in the 
+3. Add the following line or replace an include at the bottom of the `refind.conf` file in the 
    rEFInd directory
 
 ```bash
